@@ -8,13 +8,15 @@
 
 ```rust
 fn some_function() -> Option<()>
-match switcher
 {
- pattern_a => some_task1().drop_some()?
- pattern_b => some_task2().drop_some()?
- pattern_c => some_task3()?
- pattern_d => some_task4()
- _ => ()
+ match switcher
+ {
+  pattern_a => some_task1().drop_some()?
+  pattern_b => some_task2().drop_some()?
+  pattern_c => some_task3()?
+  pattern_d => some_task4()
+  _ => ()
+ }
 }
 
 fn some_task1()     -> Option<i8     > { /* abbr */ }
