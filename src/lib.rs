@@ -16,7 +16,7 @@ pub trait DropSome
  ///   "pattern-w" => some_task4(),
  ///   _ => ()
  ///  }
- ///  Ok(())
+ ///  Some(())
  /// }
  ///
  /// fn some_task1()     -> Option<i8     > { Some(1) }
