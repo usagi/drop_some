@@ -1,0 +1,12 @@
+[package]
+authors = ["USAGI.NETWORK / Usagi Ito <the@usagi.network>"]
+categories = ["rust-patterns"]
+description = "`.drop_some` syntax sugar for `Option`. It's instead of `.map(|_|())`."
+edition = "2018"
+keywords = ["DropSome", "drop_some", "syntax-sugar", "Option"]
+name = "drop_some"
+version = "1.0.0"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/usagi/drop_some"
+documentation = "https://docs.rs/drop_some/1.0.0/drop_some/trait.DropSome.html#example"
